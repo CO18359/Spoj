@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string.h>
+#include<string>
+using namespace std;
+
+int main()
+{
+  int t;
+  char a[12],b[10];
+  cin>>t;
+  while(t--)
+  {
+     cin>>a>>b;
+     if(strstr(a,b)==NULL)
+     {
+      cout<<0<<endl;
+	 }
+     else
+     {
+     cout<<1<<endl;
+	 }
+  }
+}
